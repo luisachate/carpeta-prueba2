@@ -1,0 +1,86 @@
+h1
+ {font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+h2 {
+    font: bold  14px sans-serif
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    
+    display: block;
+}
+
+body {
+    text-align: center;
+    background: gray;
+}
+.agrupar {
+    border: 1px solid black;
+    width: 960px;
+    margin: 15px auto;
+    background: white;
+}
+.cabecera {
+    background: rgb(123, 192, 110);
+    border: 1px solid #999999;
+    padding: 20px;
+}
+.cabecera h1 {
+     text-align: left;
+     padding: 0px 10px;
+}
+
+.menu {
+    background: #ccc;
+    padding: 5px 0px;
+    text-align: left;
+}
+.menu li {
+    list-style: none;
+    
+    font: bold 14px verdana;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.seccion {
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+article {
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+time {
+    color: #999;
+}
+article footer {
+    text-align: right;
+    margin-top: 20px;
+}
+.columna {
+    margin: 20px 0px;
+    width: 300px;
+    float: left;
+}
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px;
+    background:#fffbcc ;
+    margin-bottom: 20px;
+}
+.pie {
+    clear:both;
+    padding: 20px;
+    background: #999999;
+}
+img {
+    width: 80px;
+    margin: 20px auto;
+    display: block;
+}
